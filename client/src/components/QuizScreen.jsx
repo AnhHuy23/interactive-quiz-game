@@ -1,3 +1,5 @@
+import { useTranslation } from '../i18n/LanguageProvider.jsx'
+
 function optionClass(i, selectedOption, correctAnswerIndex) {
   const locked = selectedOption != null
   if (!locked) {
@@ -28,6 +30,7 @@ export default function QuizScreen({
   selectedOption,
   correctAnswerIndex,
 }) {
+  const { t } = useTranslation()
   if (!question) return null
 
   const locked = selectedOption != null
@@ -35,7 +38,7 @@ export default function QuizScreen({
   return (
     <div className="mx-auto min-h-screen max-w-2xl px-4 py-8">
       <p className="mb-2 text-center text-sm font-medium text-slate-500">
-        Câu {currentIndex + 1} / {total}
+        {t('quiz.progress', { n: currentIndex + 1, total })}
       </p>
       <div className="mb-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-lg">
         <h2 className="text-left text-lg font-semibold leading-relaxed text-slate-900 md:text-xl">

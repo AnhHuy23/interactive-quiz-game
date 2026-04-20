@@ -1,4 +1,4 @@
-/** Lỗi có mã HTTP; errorHandler sẽ trả JSON chuẩn */
+/** Error with HTTP status; centralized JSON responses use this */
 export class AppError extends Error {
   constructor(
     public statusCode: number,

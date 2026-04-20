@@ -2,13 +2,16 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import StartScreen from './components/StartScreen.jsx'
 import QuizScreen from './components/QuizScreen.jsx'
 import ResultScreen from './components/ResultScreen.jsx'
+import SettingsPanel from './components/SettingsPanel.jsx'
 import { fetchRandomQuestions } from './services/quizApi.js'
 import { useCountdownTimer } from './hooks/useCountdownTimer.js'
+import { useTranslation } from './i18n/LanguageProvider.jsx'
 
 const SECONDS_PER_QUESTION = 15
 const ADVANCE_MS = 1200
 
 export default function App() {
+  const { t } = useTranslation()
   const [phase, setPhase] = useState('start')
   const [questions, setQuestions] = useState([])
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -84,7 +87,7 @@ export default function App() {
     try {
       const qs = await fetchRandomQuestions(limit, difficulty)
       if (!qs.length) {
-        setError('Không lấy được câu hỏi nào. Thử giảm bộ lọc hoặc kiểm tra API.')
+        setError(t('app.errorEmpty'))
         return
       }
       setQuestions(qs)
@@ -92,7 +95,7 @@ export default function App() {
       setCurrentIndex(0)
       setPhase('quiz')
     } catch (e) {
-      setError(e instanceof Error ? e.message : 'Không tải được câu hỏi')
+      setError(e instanceof Error ? e.message : t('app.errorLoad'))
     } finally {
       setLoading(false)
     }
@@ -139,14 +142,16 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-indigo-50/30">
+      <SettingsPanel />
+
       {loading && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-white/70 backdrop-blur-sm">
-          <p className="text-lg font-medium text-slate-700">Đang tải câu hỏi…</p>
+          <p className="text-lg font-medium text-slate-700">{t('app.loading')}</p>
         </div>
       )}
 
       {error && phase === 'start' && (
-        <div className="mx-auto max-w-lg px-4 pt-6">
+        <div className="mx-auto max-w-lg px-4 pt-16">
           <div
             role="alert"
             className="rounded-xl border border-rose-200 bg-rose-50 px-4 py-3 text-rose-800"
@@ -163,7 +168,7 @@ export default function App() {
           <header className="sticky top-0 z-40 border-b border-slate-200/80 bg-white/90 backdrop-blur-md">
             <div className="mx-auto flex max-w-2xl items-center justify-between px-4 py-3">
               <span className="text-sm font-medium text-slate-600">
-                Câu {currentIndex + 1} / {total}
+                {t('app.progress', { n: currentIndex + 1, total })}
               </span>
               <div
                 className={`rounded-lg px-3 py-1.5 font-mono text-lg font-bold tabular-nums ${

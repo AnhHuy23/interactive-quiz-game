@@ -7,27 +7,27 @@ const MAX_RANDOM_LIMIT = 100;
 
 function assertDifficulty(value: unknown): asserts value is Difficulty {
   if (typeof value !== 'string' || !DIFFICULTIES.includes(value as Difficulty)) {
-    throw new AppError(400, `difficulty phải là một trong: ${DIFFICULTIES.join(', ')}`, 'VALIDATION_ERROR');
+    throw new AppError(400, `difficulty must be one of: ${DIFFICULTIES.join(', ')}`, 'VALIDATION_ERROR');
   }
 }
 
 function assertPositiveIntLimit(value: unknown): number {
   if (value === undefined || value === null || value === '') {
-    throw new AppError(400, 'limit là bắt buộc và phải là số nguyên dương', 'VALIDATION_ERROR');
+    throw new AppError(400, 'limit is required and must be a positive integer', 'VALIDATION_ERROR');
   }
   const n = typeof value === 'number' ? value : Number.parseInt(String(value), 10);
   if (!Number.isFinite(n) || !Number.isInteger(n) || n < 1) {
-    throw new AppError(400, 'limit phải là số nguyên >= 1', 'VALIDATION_ERROR');
+    throw new AppError(400, 'limit must be an integer >= 1', 'VALIDATION_ERROR');
   }
   if (n > MAX_RANDOM_LIMIT) {
-    throw new AppError(400, `limit không được vượt quá ${MAX_RANDOM_LIMIT}`, 'VALIDATION_ERROR');
+    throw new AppError(400, `limit cannot exceed ${MAX_RANDOM_LIMIT}`, 'VALIDATION_ERROR');
   }
   return n;
 }
 
 function assertId(id: unknown): asserts id is string {
   if (typeof id !== 'string' || id.trim().length === 0) {
-    throw new AppError(400, 'id không hợp lệ', 'VALIDATION_ERROR');
+    throw new AppError(400, 'invalid id', 'VALIDATION_ERROR');
   }
 }
 
@@ -40,12 +40,12 @@ function shuffle<T>(items: T[]): T[] {
   return copy;
 }
 
-/** Trả đầy đủ kèm correctAnswerIndex — client SPA dùng để chấm điểm (chỉ tin cậy trong dev/demo). */
+/** Full questions including correctAnswerIndex — trusted dev/demo SPA only */
 export function getAllQuestions(): QuizQuestion[] {
   try {
     return [...QUESTIONS];
   } catch (e) {
-    const msg = e instanceof Error ? e.message : 'Lỗi đọc dữ liệu';
+    const msg = e instanceof Error ? e.message : 'Failed to read data';
     throw new AppError(500, msg, 'INTERNAL');
   }
 }
@@ -56,8 +56,8 @@ export function getQuestionsByDifficulty(difficulty: unknown): QuizQuestion[] {
 }
 
 /**
- * @param limit — số câu cần lấy (1..100)
- * @param difficulty — optional; nếu có thì chỉ lấy trong nhóm đó
+ * @param limit — number of questions (1..100)
+ * @param difficulty — optional filter
  */
 export function getRandomQuestions(limit: unknown, difficulty?: unknown): QuizQuestion[] {
   const n = assertPositiveIntLimit(limit);
@@ -80,7 +80,7 @@ export function getQuestionById(id: unknown): QuizQuestion {
   assertId(id);
   const found = QUESTIONS.find((q) => q.id === id);
   if (!found) {
-    throw new AppError(404, `Không tìm thấy câu hỏi: ${id}`, 'NOT_FOUND');
+    throw new AppError(404, `Question not found: ${id}`, 'NOT_FOUND');
   }
   return found;
 }

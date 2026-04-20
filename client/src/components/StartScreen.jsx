@@ -1,14 +1,19 @@
-import { useState } from 'react'
-
-const difficulties = [
-  { value: 'easy', label: 'Dễ (easy)' },
-  { value: 'medium', label: 'Trung bình (medium)' },
-  { value: 'hard', label: 'Khó (hard)' },
-]
+import { useState, useMemo } from 'react'
+import { useTranslation } from '../i18n/LanguageProvider.jsx'
 
 export default function StartScreen({ onStart, disabled }) {
+  const { t } = useTranslation()
   const [difficulty, setDifficulty] = useState('easy')
   const [limit, setLimit] = useState(5)
+
+  const difficulties = useMemo(
+    () => [
+      { value: 'easy', label: t('diff.easy') },
+      { value: 'medium', label: t('diff.medium') },
+      { value: 'hard', label: t('diff.hard') },
+    ],
+    [t],
+  )
 
   function handleSubmit(e) {
     e.preventDefault()
@@ -18,20 +23,17 @@ export default function StartScreen({ onStart, disabled }) {
   }
 
   return (
-    <div className="mx-auto flex min-h-screen max-w-lg flex-col justify-center px-4 py-12">
+    <div className="mx-auto flex min-h-screen max-w-lg flex-col justify-center px-4 py-12 pt-20">
       <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-xl shadow-slate-200/60">
         <h1 className="mb-2 text-center text-3xl font-bold tracking-tight text-slate-900">
-          Interactive Quiz
+          {t('start.title')}
         </h1>
-        <p className="mb-8 text-center text-slate-600">
-          Chọn độ khó và số câu, mỗi câu có{' '}
-          <span className="font-semibold text-indigo-600">15 giây</span>.
-        </p>
+        <p className="mb-8 text-center text-slate-600">{t('start.subtitle')}</p>
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
             <label htmlFor="difficulty" className="mb-2 block text-sm font-medium text-slate-700">
-              Độ khó
+              {t('start.difficulty')}
             </label>
             <select
               id="difficulty"
@@ -50,7 +52,7 @@ export default function StartScreen({ onStart, disabled }) {
 
           <div>
             <label htmlFor="limit" className="mb-2 block text-sm font-medium text-slate-700">
-              Số câu hỏi (1–100)
+              {t('start.countLabel')}
             </label>
             <input
               id="limit"
@@ -69,7 +71,7 @@ export default function StartScreen({ onStart, disabled }) {
             disabled={disabled}
             className="w-full rounded-xl bg-indigo-600 py-3.5 text-lg font-semibold text-white shadow-lg shadow-indigo-500/30 transition hover:bg-indigo-500 disabled:cursor-not-allowed disabled:opacity-60"
           >
-            {disabled ? 'Đang tải…' : 'Bắt đầu'}
+            {disabled ? t('start.loading') : t('start.start')}
           </button>
         </form>
       </div>

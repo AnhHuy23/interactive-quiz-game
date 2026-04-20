@@ -1,13 +1,13 @@
 {
   "meta": {
     "schemaVersion": "1.0",
-    "title": "Bộ câu hỏi công nghệ (mẫu)",
-    "description": "Dữ liệu mẫu cho Interactive Quiz Game"
+    "title": "Tech quiz sample (English)",
+    "description": "Sample data for Interactive Quiz Game"
   },
   "questions": [
     {
       "id": "q-001",
-      "question": "HTTP status code nào biểu thị thành công nhưng không có nội dung trả về?",
+      "question": "Which HTTP status code means success with no response body?",
       "options": ["200 OK", "204 No Content", "301 Moved Permanently", "404 Not Found"],
       "correctAnswerIndex": 1,
       "category": "Web",
@@ -15,7 +15,7 @@
     },
     {
       "id": "q-002",
-      "question": "Giao thức nào được dùng phổ biến để truy cập web an toàn qua TLS?",
+      "question": "Which protocol is commonly used for secure web access over TLS?",
       "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
       "correctAnswerIndex": 2,
       "category": "Web",
@@ -23,7 +23,7 @@
     },
     {
       "id": "q-003",
-      "question": "Trong CSS, thuộc tính nào dùng để tạo khoảng cách bên trong giữa nội dung và viền của phần tử?",
+      "question": "In CSS, which property controls space inside an element, between content and border?",
       "options": ["margin", "padding", "border", "gap"],
       "correctAnswerIndex": 1,
       "category": "Frontend",
@@ -31,7 +31,7 @@
     },
     {
       "id": "q-004",
-      "question": "Cổng mặc định phổ biến cho SSH là bao nhiêu?",
+      "question": "What is the default port for SSH?",
       "options": ["21", "22", "25", "80"],
       "correctAnswerIndex": 1,
       "category": "Networking",
@@ -39,15 +39,15 @@
     },
     {
       "id": "q-005",
-      "question": "Trong mô hình OSI, tầng nào chịu trách nhiệm định tuyến (routing) giữa các mạng?",
-      "options": ["Tầng 2 - Data Link", "Tầng 3 - Network", "Tầng 4 - Transport", "Tầng 7 - Application"],
+      "question": "In the OSI model, which layer handles routing between networks?",
+      "options": ["Layer 2 - Data Link", "Layer 3 - Network", "Layer 4 - Transport", "Layer 7 - Application"],
       "correctAnswerIndex": 1,
       "category": "Networking",
       "difficulty": "medium"
     },
     {
       "id": "q-006",
-      "question": "Trong cơ sở dữ liệu quan hệ, mệnh đề SQL nào dùng để lọc nhóm sau khi GROUP BY?",
+      "question": "In SQL, which clause filters groups after GROUP BY?",
       "options": ["WHERE", "ORDER BY", "HAVING", "LIMIT"],
       "correctAnswerIndex": 2,
       "category": "Databases",
@@ -55,7 +55,7 @@
     },
     {
       "id": "q-007",
-      "question": "Thuật toán nào thường được dùng để tìm đường đi ngắn nhất trên đồ thị có trọng số không âm?",
+      "question": "Which algorithm finds shortest paths on a graph with non-negative edge weights?",
       "options": ["BFS", "DFS", "Dijkstra", "Merge Sort"],
       "correctAnswerIndex": 2,
       "category": "Algorithms",
@@ -63,7 +63,7 @@
     },
     {
       "id": "q-008",
-      "question": "Trong Git, lệnh nào dùng để tạo nhánh mới và chuyển sang nhánh đó?",
+      "question": "Which Git command creates a new branch and switches to it?",
       "options": ["git branch <name>", "git checkout -b <name>", "git merge <name>", "git stash <name>"],
       "correctAnswerIndex": 1,
       "category": "DevOps",
@@ -71,7 +71,7 @@
     },
     {
       "id": "q-009",
-      "question": "Mô hình triển khai ứng dụng nào chạy mã khi có sự kiện, không cần quản lý máy chủ cố định?",
+      "question": "Which model runs code on events without managing fixed servers?",
       "options": ["IaaS", "Serverless", "Bare metal", "Colocation"],
       "correctAnswerIndex": 1,
       "category": "Cloud",
@@ -79,15 +79,20 @@
     },
     {
       "id": "q-010",
-      "question": "Mục đích chính của JWT trong xác thực API là gì?",
-      "options": ["Nén dữ liệu", "Lưu mật khẩu dạng plain text", "Mang thông tin xác thực có chữ ký", "Thay thế hoàn toàn HTTPS"],
+      "question": "What is the main purpose of JWT in API authentication?",
+      "options": [
+        "Compress data",
+        "Store passwords in plain text",
+        "Carry signed authentication claims",
+        "Replace HTTPS entirely"
+      ],
       "correctAnswerIndex": 2,
       "category": "Security",
       "difficulty": "medium"
     },
     {
       "id": "q-011",
-      "question": "Trong Docker, lệnh nào liệt kê các container đang chạy?",
+      "question": "Which Docker command lists running containers?",
       "options": ["docker images", "docker ps", "docker logs", "docker build"],
       "correctAnswerIndex": 1,
       "category": "DevOps",
@@ -95,15 +100,20 @@
     },
     {
       "id": "q-012",
-      "question": "Khái niệm 'Idempotent' trong thiết kế REST API nghĩa là gì?",
-      "options": ["Mỗi request tạo tài nguyên mới", "Gọi nhiều lần cho cùng một thao tác cho kết quả như một lần", "Luôn trả về 200", "Không được dùng cache"],
+      "question": "What does “idempotent” mean in REST API design?",
+      "options": [
+        "Every request creates a new resource",
+        "Multiple identical requests have the same effect as one",
+        "Always returns HTTP 200",
+        "Caching is forbidden"
+      ],
       "correctAnswerIndex": 1,
       "category": "Web",
       "difficulty": "hard"
     },
     {
       "id": "q-013",
-      "question": "Trong Linux, lệnh nào hiển thị quy trình đang chạy theo thời gian thực?",
+      "question": "Which Linux command shows running processes?",
       "options": ["ls", "ps", "chmod", "grep"],
       "correctAnswerIndex": 1,
       "category": "Operating Systems",
@@ -111,23 +121,33 @@
     },
     {
       "id": "q-014",
-      "question": "Học máy có giám sát (supervised learning) cần loại dữ liệu nào trong quá trình huấn luyện?",
-      "options": ["Chỉ ảnh, không nhãn", "Nhãn (label) tương ứng với mẫu", "Chỉ số ngẫu nhiên", "Không cần dữ liệu"],
+      "question": "What does supervised learning require during training?",
+      "options": [
+        "Images without labels",
+        "Labels corresponding to each sample",
+        "Random indices only",
+        "No data"
+      ],
       "correctAnswerIndex": 1,
       "category": "AI/ML",
       "difficulty": "easy"
     },
     {
       "id": "q-015",
-      "question": "Nguyên lý SOLID nào khuyến khích module phụ thuộc vào trừu tượng thay vì cụ thể?",
-      "options": ["Single Responsibility", "Open/Closed", "Liskov Substitution", "Dependency Inversion"],
+      "question": "Which SOLID principle pushes dependencies toward abstractions?",
+      "options": [
+        "Single Responsibility",
+        "Open/Closed",
+        "Liskov Substitution",
+        "Dependency Inversion"
+      ],
       "correctAnswerIndex": 3,
       "category": "Software Engineering",
       "difficulty": "hard"
     },
     {
       "id": "q-016",
-      "question": "Trên Android, ngôn ngữ được Google khuyến nghị chính thức hiện nay cho phát triển ứng dụng là gì?",
+      "question": "Which language does Google officially recommend for Android development today?",
       "options": ["Java", "Objective-C", "Kotlin", "Swift"],
       "correctAnswerIndex": 2,
       "category": "Mobile",
@@ -135,7 +155,7 @@
     },
     {
       "id": "q-017",
-      "question": "NoSQL document store nào thường lưu dữ liệu dạng BSON?",
+      "question": "Which NoSQL document store often uses BSON on disk?",
       "options": ["Redis", "MongoDB", "Cassandra", "SQLite"],
       "correctAnswerIndex": 1,
       "category": "Databases",
@@ -143,23 +163,33 @@
     },
     {
       "id": "q-018",
-      "question": "Trong mạng TCP, bắt tay ba bước (three-way handshake) dùng để làm gì?",
-      "options": ["Mã hóa end-to-end", "Thiết lập kết nối đáng tin cậy", "Phân giải DNS", "Nén header"],
+      "question": "What is the purpose of the TCP three-way handshake?",
+      "options": [
+        "End-to-end encryption",
+        "Establish a reliable connection",
+        "Resolve DNS",
+        "Compress headers"
+      ],
       "correctAnswerIndex": 1,
       "category": "Networking",
       "difficulty": "medium"
     },
     {
       "id": "q-019",
-      "question": "Tấn công XSS tận dụng điểm yếu nào?",
-      "options": ["Cấu hình firewall sai", "Thực thi mã độc trong ngữ cảnh trình duyệt của nạn nhân", "Ngắt kết nối TCP", "Mất mật khẩu trong Redis"],
+      "question": "What does an XSS attack exploit?",
+      "options": [
+        "Bad firewall rules",
+        "Running attacker code in the victim’s browser context",
+        "Closing TCP connections",
+        "Lost Redis passwords"
+      ],
       "correctAnswerIndex": 1,
       "category": "Security",
       "difficulty": "medium"
     },
     {
       "id": "q-020",
-      "question": "Big O của tìm kiếm nhị phân trên mảng đã sắp xếp là?",
+      "question": "What is the time complexity of binary search on a sorted array?",
       "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
       "correctAnswerIndex": 1,
       "category": "Algorithms",

@@ -25,7 +25,7 @@ function jsonSuccess<T>(res: Response, data: T, status = 200) {
   });
 }
 
-/** Express: query có thể là string | string[] | undefined */
+/** Express query values may be string | string[] */
 function firstQuery(val: unknown): string | undefined {
   if (val === undefined || val === null) return undefined;
   const raw = Array.isArray(val) ? val[0] : val;
@@ -34,7 +34,7 @@ function firstQuery(val: unknown): string | undefined {
   return s.length === 0 ? undefined : s;
 }
 
-/** GET /api/questions — toàn bộ hoặc lọc ?difficulty=easy */
+/** GET /api/questions — all or ?difficulty=easy */
 router.get(
   '/questions',
   asyncHandler(async (req: Request, res: Response) => {
@@ -49,7 +49,7 @@ router.get(
   }),
 );
 
-/** GET /api/questions/random?limit=10&difficulty=easy — đặt trước :id */
+/** GET /api/questions/random — register before /:id */
 router.get(
   '/questions/random',
   asyncHandler(async (req: Request, res: Response) => {

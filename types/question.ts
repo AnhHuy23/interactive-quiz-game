@@ -1,7 +1,7 @@
-/** Độ khó câu hỏi */
+/** Question difficulty level */
 export type QuestionDifficulty = 'easy' | 'medium' | 'hard';
 
-/** Bản đầy đủ (server / nội bộ) — có đáp án đúng */
+/** Full record (server / internal) — includes correct answer */
 export interface QuizQuestion {
   id: string;
   question: string;
@@ -11,5 +11,5 @@ export interface QuizQuestion {
   difficulty: QuestionDifficulty;
 }
 
-/** Gửi cho client khi làm bài — không lộ đáp án */
+/** Payload for client during play — omits correct answer */
 export type QuizQuestionPublic = Omit<QuizQuestion, 'correctAnswerIndex'>;

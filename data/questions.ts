@@ -1,5 +1,5 @@
 /**
- * Re-export dữ liệu in-memory từ API server (single source).
- * Frontend/bundler khác có thể import trực tiếp từ đây khi cần dùng offline.
+ * Re-export in-memory questions from the API package (single source of truth).
+ * Other tools may import this path for offline fixtures.
  */
 export { QUESTIONS } from '../server/src/data/questions';

@@ -1,7 +1,8 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 
 /**
- * Đếm ngược; gọi resetTimer() khi đổi câu hỏi. Dọn interval khi unmount / stop.
+ * Countdown in seconds; call resetTimer() when moving to the next question.
+ * Clears interval on unmount / stop.
  */
 export function useCountdownTimer(durationSeconds, onTimeUp) {
   const [timeLeft, setTimeLeft] = useState(durationSeconds)

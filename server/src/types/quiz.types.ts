@@ -9,7 +9,7 @@ export interface QuizQuestion {
   difficulty: Difficulty;
 }
 
-/** Payload gửi client — không lộ đáp án */
+/** Client payload — hides correct answers */
 export type QuizQuestionPublic = Omit<QuizQuestion, 'correctAnswerIndex'>;
 
 export interface QuizBankMeta {
