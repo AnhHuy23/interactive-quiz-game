@@ -1,4 +1,20 @@
-# React + Vite
+# Quiz client (React + Vite)
+
+## Environment
+
+Copy the example file and adjust values locally (your `.env` is ignored by Git):
+
+```bash
+cp .env.example .env
+```
+
+| Variable | Meaning |
+|----------|---------|
+| `VITE_API_BASE_URL` | Base URL of the Quiz API (no trailing slash), e.g. `http://localhost:8080` |
+
+---
+
+## Vite template note
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
