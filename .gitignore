@@ -1,0 +1,8 @@
+# Environment (local secrets / URLs — never commit)
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
