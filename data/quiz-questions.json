@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "schemaVersion": "1.0",
+    "title": "Bộ câu hỏi công nghệ (mẫu)",
+    "description": "Dữ liệu mẫu cho Interactive Quiz Game"
+  },
+  "questions": [
+    {
+      "id": "q-001",
+      "question": "HTTP status code nào biểu thị thành công nhưng không có nội dung trả về?",
+      "options": ["200 OK", "204 No Content", "301 Moved Permanently", "404 Not Found"],
+      "correctAnswerIndex": 1,
+      "category": "Web",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-002",
+      "question": "Giao thức nào được dùng phổ biến để truy cập web an toàn qua TLS?",
+      "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
+      "correctAnswerIndex": 2,
+      "category": "Web",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-003",
+      "question": "Trong CSS, thuộc tính nào dùng để tạo khoảng cách bên trong giữa nội dung và viền của phần tử?",
+      "options": ["margin", "padding", "border", "gap"],
+      "correctAnswerIndex": 1,
+      "category": "Frontend",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-004",
+      "question": "Cổng mặc định phổ biến cho SSH là bao nhiêu?",
+      "options": ["21", "22", "25", "80"],
+      "correctAnswerIndex": 1,
+      "category": "Networking",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-005",
+      "question": "Trong mô hình OSI, tầng nào chịu trách nhiệm định tuyến (routing) giữa các mạng?",
+      "options": ["Tầng 2 - Data Link", "Tầng 3 - Network", "Tầng 4 - Transport", "Tầng 7 - Application"],
+      "correctAnswerIndex": 1,
+      "category": "Networking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-006",
+      "question": "Trong cơ sở dữ liệu quan hệ, mệnh đề SQL nào dùng để lọc nhóm sau khi GROUP BY?",
+      "options": ["WHERE", "ORDER BY", "HAVING", "LIMIT"],
+      "correctAnswerIndex": 2,
+      "category": "Databases",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-007",
+      "question": "Thuật toán nào thường được dùng để tìm đường đi ngắn nhất trên đồ thị có trọng số không âm?",
+      "options": ["BFS", "DFS", "Dijkstra", "Merge Sort"],
+      "correctAnswerIndex": 2,
+      "category": "Algorithms",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-008",
+      "question": "Trong Git, lệnh nào dùng để tạo nhánh mới và chuyển sang nhánh đó?",
+      "options": ["git branch <name>", "git checkout -b <name>", "git merge <name>", "git stash <name>"],
+      "correctAnswerIndex": 1,
+      "category": "DevOps",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-009",
+      "question": "Mô hình triển khai ứng dụng nào chạy mã khi có sự kiện, không cần quản lý máy chủ cố định?",
+      "options": ["IaaS", "Serverless", "Bare metal", "Colocation"],
+      "correctAnswerIndex": 1,
+      "category": "Cloud",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-010",
+      "question": "Mục đích chính của JWT trong xác thực API là gì?",
+      "options": ["Nén dữ liệu", "Lưu mật khẩu dạng plain text", "Mang thông tin xác thực có chữ ký", "Thay thế hoàn toàn HTTPS"],
+      "correctAnswerIndex": 2,
+      "category": "Security",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-011",
+      "question": "Trong Docker, lệnh nào liệt kê các container đang chạy?",
+      "options": ["docker images", "docker ps", "docker logs", "docker build"],
+      "correctAnswerIndex": 1,
+      "category": "DevOps",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-012",
+      "question": "Khái niệm 'Idempotent' trong thiết kế REST API nghĩa là gì?",
+      "options": ["Mỗi request tạo tài nguyên mới", "Gọi nhiều lần cho cùng một thao tác cho kết quả như một lần", "Luôn trả về 200", "Không được dùng cache"],
+      "correctAnswerIndex": 1,
+      "category": "Web",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q-013",
+      "question": "Trong Linux, lệnh nào hiển thị quy trình đang chạy theo thời gian thực?",
+      "options": ["ls", "ps", "chmod", "grep"],
+      "correctAnswerIndex": 1,
+      "category": "Operating Systems",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-014",
+      "question": "Học máy có giám sát (supervised learning) cần loại dữ liệu nào trong quá trình huấn luyện?",
+      "options": ["Chỉ ảnh, không nhãn", "Nhãn (label) tương ứng với mẫu", "Chỉ số ngẫu nhiên", "Không cần dữ liệu"],
+      "correctAnswerIndex": 1,
+      "category": "AI/ML",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-015",
+      "question": "Nguyên lý SOLID nào khuyến khích module phụ thuộc vào trừu tượng thay vì cụ thể?",
+      "options": ["Single Responsibility", "Open/Closed", "Liskov Substitution", "Dependency Inversion"],
+      "correctAnswerIndex": 3,
+      "category": "Software Engineering",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q-016",
+      "question": "Trên Android, ngôn ngữ được Google khuyến nghị chính thức hiện nay cho phát triển ứng dụng là gì?",
+      "options": ["Java", "Objective-C", "Kotlin", "Swift"],
+      "correctAnswerIndex": 2,
+      "category": "Mobile",
+      "difficulty": "easy"
+    },
+    {
+      "id": "q-017",
+      "question": "NoSQL document store nào thường lưu dữ liệu dạng BSON?",
+      "options": ["Redis", "MongoDB", "Cassandra", "SQLite"],
+      "correctAnswerIndex": 1,
+      "category": "Databases",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-018",
+      "question": "Trong mạng TCP, bắt tay ba bước (three-way handshake) dùng để làm gì?",
+      "options": ["Mã hóa end-to-end", "Thiết lập kết nối đáng tin cậy", "Phân giải DNS", "Nén header"],
+      "correctAnswerIndex": 1,
+      "category": "Networking",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-019",
+      "question": "Tấn công XSS tận dụng điểm yếu nào?",
+      "options": ["Cấu hình firewall sai", "Thực thi mã độc trong ngữ cảnh trình duyệt của nạn nhân", "Ngắt kết nối TCP", "Mất mật khẩu trong Redis"],
+      "correctAnswerIndex": 1,
+      "category": "Security",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q-020",
+      "question": "Big O của tìm kiếm nhị phân trên mảng đã sắp xếp là?",
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+      "correctAnswerIndex": 1,
+      "category": "Algorithms",
+      "difficulty": "medium"
+    }
+  ]
+}
