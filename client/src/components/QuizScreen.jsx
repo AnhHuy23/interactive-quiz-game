@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import { useTranslation } from '../i18n/LanguageProvider.jsx'
 
 function optionClass(i, selectedOption, correctAnswerIndex) {
@@ -31,25 +32,38 @@ export default function QuizScreen({
   correctAnswerIndex,
 }) {
   const { t } = useTranslation()
+  const questionRef = useRef(null)
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+    questionRef.current?.scrollIntoView({ behavior: 'auto', block: 'start' })
+  }, [currentIndex, question?.id])
+
   if (!question) return null
 
   const locked = selectedOption != null
 
   return (
-    <div className="mx-auto min-h-screen max-w-2xl px-4 py-8">
-      <p className="mb-2 text-center text-sm font-medium text-slate-500">
+    <div className="mx-auto flex max-h-[calc(100dvh-5rem)] max-w-2xl flex-col px-4 pb-8 pt-4">
+      <p className="mb-3 shrink-0 text-center text-sm font-medium text-slate-500">
         {t('quiz.progress', { n: currentIndex + 1, total })}
       </p>
-      <div className="mb-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-lg">
-        <h2 className="text-left text-lg font-semibold leading-relaxed text-slate-900 md:text-xl">
+
+      {/* Question stays visible; answers scroll if the list is long */}
+      <div
+        ref={questionRef}
+        id="quiz-question-panel"
+        className="mb-4 shrink-0 scroll-mt-24 rounded-2xl border-2 border-indigo-200 bg-indigo-50/60 p-5 shadow-md"
+      >
+        <h2 className="text-left text-lg font-semibold leading-snug text-slate-900 md:text-xl">
           {question.question}
         </h2>
         {question.category && (
-          <p className="mt-2 text-left text-sm text-slate-500">{question.category}</p>
+          <p className="mt-3 text-left text-sm font-medium text-indigo-700">{question.category}</p>
         )}
       </div>
 
-      <ul className="space-y-3">
+      <ul className="min-h-0 flex-1 space-y-3 overflow-y-auto pr-1">
         {question.options.map((text, i) => {
           const label = String.fromCharCode(65 + i)
           return (
@@ -64,8 +78,8 @@ export default function QuizScreen({
                   correctAnswerIndex,
                 )} ${locked ? 'cursor-default' : 'cursor-pointer'}`}
               >
-                <span className="mr-3 font-mono text-sm text-slate-500">{label}.</span>
-                {text}
+                <span className="mr-3 font-mono text-sm font-semibold text-slate-600">{label}.</span>
+                <span className="align-top">{text}</span>
               </button>
             </li>
           )

@@ -11,6 +11,9 @@ export const messages = {
     'start.subtitle':
       'Choose difficulty and question count. You have 15 seconds per question.',
     'start.difficulty': 'Difficulty',
+    'start.category': 'Category',
+    'start.categoryAll': 'All categories',
+    'start.categoriesLoadError': 'Could not load categories.',
     'start.countLabel': 'Number of questions (1–100)',
     'start.start': 'Start',
     'start.loading': 'Loading…',
@@ -47,6 +50,9 @@ export const messages = {
     'start.subtitle':
       'Chọn độ khó và số câu. Mỗi câu có 15 giây.',
     'start.difficulty': 'Độ khó',
+    'start.category': 'Thể loại',
+    'start.categoryAll': 'Tất cả thể loại',
+    'start.categoriesLoadError': 'Không tải được danh sách thể loại.',
     'start.countLabel': 'Số câu hỏi (1–100)',
     'start.start': 'Bắt đầu',
     'start.loading': 'Đang tải…',

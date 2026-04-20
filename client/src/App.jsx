@@ -81,11 +81,17 @@ export default function App() {
     resetTimer()
   }, [phase, currentIndex, resetTimer])
 
-  async function handleStart({ difficulty, limit }) {
+  /** Keep question text in view when moving to the next item (fixes “only options visible”). */
+  useEffect(() => {
+    if (phase !== 'quiz') return
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [phase, currentIndex])
+
+  async function handleStart({ difficulty, limit, category }) {
     setError(null)
     setLoading(true)
     try {
-      const qs = await fetchRandomQuestions(limit, difficulty)
+      const qs = await fetchRandomQuestions(limit, difficulty, category)
       if (!qs.length) {
         setError(t('app.errorEmpty'))
         return

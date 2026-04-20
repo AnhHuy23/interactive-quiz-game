@@ -6,6 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "generate:questions": "node scripts/generate-questions.mjs",
     "start": "node dist/index.js",
     "dev": "nodemon",
     "typecheck": "tsc -p tsconfig.json --noEmit"

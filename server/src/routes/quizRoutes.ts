@@ -1,11 +1,12 @@
 import type { Request, Response, NextFunction } from 'express';
 import { Router } from 'express';
 
+import { QUESTIONS } from '../data/questions';
 import {
-  getAllQuestions,
+  filterQuestions,
   getQuestionById,
-  getQuestionsByDifficulty,
   getRandomQuestions,
+  listCategories,
 } from '../services/quizService';
 
 const router = Router();
@@ -34,34 +35,43 @@ function firstQuery(val: unknown): string | undefined {
   return s.length === 0 ? undefined : s;
 }
 
-/** GET /api/questions — all or ?difficulty=easy */
+/** GET /api/questions/categories — register before :id */
+router.get(
+  '/questions/categories',
+  asyncHandler(async (_req: Request, res: Response) => {
+    jsonSuccess(res, {
+      categories: listCategories(),
+      totalQuestions: QUESTIONS.length,
+    });
+  }),
+);
+
+/** GET /api/questions — optional ?difficulty=&category= (omit category or use all) */
 router.get(
   '/questions',
   asyncHandler(async (req: Request, res: Response) => {
     const d = firstQuery(req.query.difficulty);
-    if (d !== undefined) {
-      const list = getQuestionsByDifficulty(d);
-      jsonSuccess(res, { questions: list, count: list.length });
-      return;
-    }
-    const list = getAllQuestions();
+    const c = firstQuery(req.query.category);
+    const list = filterQuestions(d, c);
     jsonSuccess(res, { questions: list, count: list.length });
   }),
 );
 
-/** GET /api/questions/random — register before /:id */
+/** GET /api/questions/random?limit=&difficulty=&category= */
 router.get(
   '/questions/random',
   asyncHandler(async (req: Request, res: Response) => {
     const limit = req.query.limit;
     const diff = firstQuery(req.query.difficulty);
-    const list = getRandomQuestions(limit, diff);
+    const cat = firstQuery(req.query.category);
+    const list = getRandomQuestions(limit, diff, cat);
     const limitNum = Number.parseInt(String(limit), 10);
     jsonSuccess(res, {
       questions: list,
       count: list.length,
       limit: Number.isFinite(limitNum) ? limitNum : limit,
       difficulty: diff ?? 'all',
+      category: cat && cat.toLowerCase() !== 'all' ? cat : 'all',
     });
   }),
 );

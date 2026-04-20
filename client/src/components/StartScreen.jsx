@@ -1,10 +1,14 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { useTranslation } from '../i18n/LanguageProvider.jsx'
+import { fetchCategories } from '../services/quizApi.js'
 
 export default function StartScreen({ onStart, disabled }) {
   const { t } = useTranslation()
   const [difficulty, setDifficulty] = useState('easy')
-  const [limit, setLimit] = useState(5)
+  const [category, setCategory] = useState('')
+  const [limit, setLimit] = useState(10)
+  const [categories, setCategories] = useState([])
+  const [catError, setCatError] = useState(null)
 
   const difficulties = useMemo(
     () => [
@@ -15,11 +19,32 @@ export default function StartScreen({ onStart, disabled }) {
     [t],
   )
 
+  useEffect(() => {
+    let cancelled = false
+    fetchCategories()
+      .then(({ categories: list }) => {
+        if (!cancelled) {
+          setCategories(list)
+          setCatError(null)
+        }
+      })
+      .catch(() => {
+        if (!cancelled) setCatError(t('start.categoriesLoadError'))
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [t])
+
   function handleSubmit(e) {
     e.preventDefault()
     const n = Number(limit)
     if (!Number.isFinite(n) || n < 1) return
-    onStart({ difficulty, limit: Math.min(100, Math.floor(n)) })
+    onStart({
+      difficulty,
+      limit: Math.min(100, Math.floor(n)),
+      category,
+    })
   }
 
   return (
@@ -29,6 +54,12 @@ export default function StartScreen({ onStart, disabled }) {
           {t('start.title')}
         </h1>
         <p className="mb-8 text-center text-slate-600">{t('start.subtitle')}</p>
+
+        {catError && (
+          <p className="mb-4 rounded-lg bg-amber-50 px-3 py-2 text-center text-sm text-amber-900">
+            {catError}
+          </p>
+        )}
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
@@ -45,6 +76,26 @@ export default function StartScreen({ onStart, disabled }) {
               {difficulties.map((d) => (
                 <option key={d.value} value={d.value}>
                   {d.label}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <div>
+            <label htmlFor="category" className="mb-2 block text-sm font-medium text-slate-700">
+              {t('start.category')}
+            </label>
+            <select
+              id="category"
+              value={category}
+              onChange={(e) => setCategory(e.target.value)}
+              disabled={disabled}
+              className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-slate-900 outline-none ring-indigo-500 focus:ring-2 disabled:opacity-50"
+            >
+              <option value="">{t('start.categoryAll')}</option>
+              {categories.map((c) => (
+                <option key={c} value={c}>
+                  {c}
                 </option>
               ))}
             </select>

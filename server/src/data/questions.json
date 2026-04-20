@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "p-001",
+    "question": "Web (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding Web (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Web (case 1): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Web (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Web (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Web",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-002",
+    "question": "Web (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding Web (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Web (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Web (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Web (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Web",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-003",
+    "question": "Web (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding Web (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Web (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Web (case 3): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Web (case 3): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Web",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-004",
+    "question": "Web (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding Web (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Web (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Web (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Web (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Web",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-005",
+    "question": "Web (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding Web (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Web (case 5): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Web (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Web (case 5): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Web",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-006",
+    "question": "Web (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding Web (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Web (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Web (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Web (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Web",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-007",
+    "question": "Web (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding Web (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Web (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Web (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Web (case 7): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Web",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-008",
+    "question": "Web (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding Web (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Web (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Web (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Web (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Web",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-009",
+    "question": "Web (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding Web (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Web (case 9): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Web (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Web (case 9): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Web",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-010",
+    "question": "Web (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding Web (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Web (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Web (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Web (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Web",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-011",
+    "question": "JavaScript (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding JavaScript (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding JavaScript (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding JavaScript (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding JavaScript (case 1): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "JavaScript",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-012",
+    "question": "JavaScript (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding JavaScript (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding JavaScript (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding JavaScript (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding JavaScript (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "JavaScript",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-013",
+    "question": "JavaScript (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding JavaScript (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding JavaScript (case 3): following established guidance from official docs and community standards fits this situation.",
+      "Regarding JavaScript (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding JavaScript (case 3): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "JavaScript",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-014",
+    "question": "JavaScript (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding JavaScript (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding JavaScript (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding JavaScript (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding JavaScript (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "JavaScript",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-015",
+    "question": "JavaScript (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding JavaScript (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding JavaScript (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding JavaScript (case 5): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding JavaScript (case 5): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "JavaScript",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-016",
+    "question": "JavaScript (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding JavaScript (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding JavaScript (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding JavaScript (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding JavaScript (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "JavaScript",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-017",
+    "question": "JavaScript (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding JavaScript (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding JavaScript (case 7): following established guidance from official docs and community standards fits this situation.",
+      "Regarding JavaScript (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding JavaScript (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "JavaScript",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-018",
+    "question": "JavaScript (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding JavaScript (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding JavaScript (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding JavaScript (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding JavaScript (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "JavaScript",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-019",
+    "question": "JavaScript (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding JavaScript (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding JavaScript (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding JavaScript (case 9): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding JavaScript (case 9): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "JavaScript",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-020",
+    "question": "JavaScript (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding JavaScript (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding JavaScript (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding JavaScript (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding JavaScript (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "JavaScript",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-021",
+    "question": "TypeScript (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding TypeScript (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding TypeScript (case 1): following established guidance from official docs and community standards fits this situation.",
+      "Regarding TypeScript (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding TypeScript (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "TypeScript",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-022",
+    "question": "TypeScript (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding TypeScript (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding TypeScript (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding TypeScript (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding TypeScript (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "TypeScript",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-023",
+    "question": "TypeScript (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding TypeScript (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding TypeScript (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding TypeScript (case 3): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding TypeScript (case 3): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "TypeScript",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-024",
+    "question": "TypeScript (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding TypeScript (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding TypeScript (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding TypeScript (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding TypeScript (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TypeScript",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-025",
+    "question": "TypeScript (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding TypeScript (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding TypeScript (case 5): following established guidance from official docs and community standards fits this situation.",
+      "Regarding TypeScript (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding TypeScript (case 5): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "TypeScript",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-026",
+    "question": "TypeScript (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding TypeScript (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding TypeScript (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding TypeScript (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding TypeScript (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "TypeScript",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-027",
+    "question": "TypeScript (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding TypeScript (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding TypeScript (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding TypeScript (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding TypeScript (case 7): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "TypeScript",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-028",
+    "question": "TypeScript (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding TypeScript (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding TypeScript (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding TypeScript (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding TypeScript (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "TypeScript",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-029",
+    "question": "TypeScript (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding TypeScript (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding TypeScript (case 9): following established guidance from official docs and community standards fits this situation.",
+      "Regarding TypeScript (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding TypeScript (case 9): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "TypeScript",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-030",
+    "question": "TypeScript (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding TypeScript (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding TypeScript (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding TypeScript (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding TypeScript (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "TypeScript",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-031",
+    "question": "HTML & CSS (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding HTML & CSS (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding HTML & CSS (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding HTML & CSS (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding HTML & CSS (case 1): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "HTML & CSS",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-032",
+    "question": "HTML & CSS (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding HTML & CSS (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding HTML & CSS (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding HTML & CSS (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding HTML & CSS (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HTML & CSS",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-033",
+    "question": "HTML & CSS (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding HTML & CSS (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding HTML & CSS (case 3): following established guidance from official docs and community standards fits this situation.",
+      "Regarding HTML & CSS (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding HTML & CSS (case 3): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "HTML & CSS",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-034",
+    "question": "HTML & CSS (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding HTML & CSS (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding HTML & CSS (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding HTML & CSS (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding HTML & CSS (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "HTML & CSS",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-035",
+    "question": "HTML & CSS (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding HTML & CSS (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding HTML & CSS (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding HTML & CSS (case 5): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding HTML & CSS (case 5): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "HTML & CSS",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-036",
+    "question": "HTML & CSS (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding HTML & CSS (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding HTML & CSS (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding HTML & CSS (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding HTML & CSS (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HTML & CSS",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-037",
+    "question": "HTML & CSS (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding HTML & CSS (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding HTML & CSS (case 7): following established guidance from official docs and community standards fits this situation.",
+      "Regarding HTML & CSS (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding HTML & CSS (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "HTML & CSS",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-038",
+    "question": "HTML & CSS (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding HTML & CSS (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding HTML & CSS (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding HTML & CSS (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding HTML & CSS (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "HTML & CSS",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-039",
+    "question": "HTML & CSS (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding HTML & CSS (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding HTML & CSS (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding HTML & CSS (case 9): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding HTML & CSS (case 9): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "HTML & CSS",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-040",
+    "question": "HTML & CSS (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding HTML & CSS (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding HTML & CSS (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding HTML & CSS (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding HTML & CSS (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "HTML & CSS",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-041",
+    "question": "Networking (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding Networking (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Networking (case 1): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Networking (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Networking (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Networking",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-042",
+    "question": "Networking (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding Networking (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Networking (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Networking (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Networking (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Networking",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-043",
+    "question": "Networking (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding Networking (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Networking (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Networking (case 3): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Networking (case 3): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Networking",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-044",
+    "question": "Networking (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding Networking (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Networking (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Networking (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Networking (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Networking",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-045",
+    "question": "Networking (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding Networking (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Networking (case 5): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Networking (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Networking (case 5): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Networking",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-046",
+    "question": "Networking (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding Networking (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Networking (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Networking (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Networking (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Networking",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-047",
+    "question": "Networking (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding Networking (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Networking (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Networking (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Networking (case 7): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Networking",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-048",
+    "question": "Networking (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding Networking (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Networking (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Networking (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Networking (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Networking",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-049",
+    "question": "Networking (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding Networking (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Networking (case 9): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Networking (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Networking (case 9): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Networking",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-050",
+    "question": "Networking (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding Networking (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Networking (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Networking (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Networking (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Networking",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-051",
+    "question": "Databases (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding Databases (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Databases (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Databases (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Databases (case 1): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Databases",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-052",
+    "question": "Databases (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding Databases (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Databases (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Databases (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Databases (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Databases",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-053",
+    "question": "Databases (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding Databases (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Databases (case 3): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Databases (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Databases (case 3): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Databases",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-054",
+    "question": "Databases (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding Databases (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Databases (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Databases (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Databases (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Databases",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-055",
+    "question": "Databases (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding Databases (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Databases (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Databases (case 5): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Databases (case 5): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Databases",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-056",
+    "question": "Databases (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding Databases (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Databases (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Databases (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Databases (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Databases",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-057",
+    "question": "Databases (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding Databases (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Databases (case 7): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Databases (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Databases (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Databases",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-058",
+    "question": "Databases (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding Databases (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Databases (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Databases (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Databases (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Databases",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-059",
+    "question": "Databases (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding Databases (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Databases (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Databases (case 9): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Databases (case 9): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Databases",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-060",
+    "question": "Databases (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding Databases (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Databases (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Databases (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Databases (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Databases",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-061",
+    "question": "SQL (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding SQL (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding SQL (case 1): following established guidance from official docs and community standards fits this situation.",
+      "Regarding SQL (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding SQL (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SQL",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-062",
+    "question": "SQL (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding SQL (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding SQL (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding SQL (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding SQL (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "SQL",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-063",
+    "question": "SQL (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding SQL (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding SQL (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding SQL (case 3): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding SQL (case 3): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "SQL",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-064",
+    "question": "SQL (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding SQL (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding SQL (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding SQL (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding SQL (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SQL",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-065",
+    "question": "SQL (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding SQL (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding SQL (case 5): following established guidance from official docs and community standards fits this situation.",
+      "Regarding SQL (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding SQL (case 5): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SQL",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-066",
+    "question": "SQL (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding SQL (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding SQL (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding SQL (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding SQL (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "SQL",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-067",
+    "question": "SQL (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding SQL (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding SQL (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding SQL (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding SQL (case 7): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "SQL",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-068",
+    "question": "SQL (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding SQL (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding SQL (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding SQL (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding SQL (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "SQL",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-069",
+    "question": "SQL (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding SQL (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding SQL (case 9): following established guidance from official docs and community standards fits this situation.",
+      "Regarding SQL (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding SQL (case 9): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "SQL",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-070",
+    "question": "SQL (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding SQL (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding SQL (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding SQL (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding SQL (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "SQL",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-071",
+    "question": "Algorithms (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding Algorithms (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Algorithms (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Algorithms (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Algorithms (case 1): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Algorithms",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-072",
+    "question": "Algorithms (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding Algorithms (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Algorithms (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Algorithms (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Algorithms (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Algorithms",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-073",
+    "question": "Algorithms (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding Algorithms (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Algorithms (case 3): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Algorithms (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Algorithms (case 3): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Algorithms",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-074",
+    "question": "Algorithms (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding Algorithms (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Algorithms (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Algorithms (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Algorithms (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Algorithms",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-075",
+    "question": "Algorithms (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding Algorithms (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Algorithms (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Algorithms (case 5): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Algorithms (case 5): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Algorithms",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-076",
+    "question": "Algorithms (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding Algorithms (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Algorithms (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Algorithms (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Algorithms (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Algorithms",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-077",
+    "question": "Algorithms (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding Algorithms (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Algorithms (case 7): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Algorithms (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Algorithms (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Algorithms",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-078",
+    "question": "Algorithms (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding Algorithms (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Algorithms (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Algorithms (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Algorithms (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Algorithms",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-079",
+    "question": "Algorithms (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding Algorithms (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Algorithms (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Algorithms (case 9): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Algorithms (case 9): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Algorithms",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-080",
+    "question": "Algorithms (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding Algorithms (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Algorithms (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Algorithms (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Algorithms (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Algorithms",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-081",
+    "question": "DevOps (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding DevOps (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding DevOps (case 1): following established guidance from official docs and community standards fits this situation.",
+      "Regarding DevOps (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding DevOps (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "DevOps",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-082",
+    "question": "DevOps (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding DevOps (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding DevOps (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding DevOps (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding DevOps (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "DevOps",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-083",
+    "question": "DevOps (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding DevOps (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding DevOps (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding DevOps (case 3): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding DevOps (case 3): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "DevOps",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-084",
+    "question": "DevOps (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding DevOps (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding DevOps (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding DevOps (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding DevOps (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "DevOps",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-085",
+    "question": "DevOps (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding DevOps (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding DevOps (case 5): following established guidance from official docs and community standards fits this situation.",
+      "Regarding DevOps (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding DevOps (case 5): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "DevOps",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-086",
+    "question": "DevOps (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding DevOps (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding DevOps (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding DevOps (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding DevOps (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "DevOps",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-087",
+    "question": "DevOps (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding DevOps (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding DevOps (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding DevOps (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding DevOps (case 7): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "DevOps",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-088",
+    "question": "DevOps (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding DevOps (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding DevOps (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding DevOps (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding DevOps (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "DevOps",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-089",
+    "question": "DevOps (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding DevOps (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding DevOps (case 9): following established guidance from official docs and community standards fits this situation.",
+      "Regarding DevOps (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding DevOps (case 9): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "DevOps",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-090",
+    "question": "DevOps (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding DevOps (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding DevOps (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding DevOps (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding DevOps (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "DevOps",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-091",
+    "question": "Docker (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding Docker (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Docker (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Docker (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Docker (case 1): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Docker",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-092",
+    "question": "Docker (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding Docker (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Docker (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Docker (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Docker (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Docker",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-093",
+    "question": "Docker (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding Docker (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Docker (case 3): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Docker (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Docker (case 3): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Docker",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-094",
+    "question": "Docker (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding Docker (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Docker (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Docker (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Docker (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Docker",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-095",
+    "question": "Docker (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding Docker (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Docker (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Docker (case 5): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Docker (case 5): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Docker",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-096",
+    "question": "Docker (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding Docker (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Docker (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Docker (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Docker (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Docker",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-097",
+    "question": "Docker (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding Docker (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Docker (case 7): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Docker (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Docker (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Docker",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-098",
+    "question": "Docker (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding Docker (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Docker (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Docker (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Docker (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Docker",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-099",
+    "question": "Docker (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding Docker (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Docker (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Docker (case 9): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Docker (case 9): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Docker",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-100",
+    "question": "Docker (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding Docker (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Docker (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Docker (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Docker (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Docker",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-101",
+    "question": "Cloud (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding Cloud (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Cloud (case 1): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Cloud (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Cloud (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Cloud",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-102",
+    "question": "Cloud (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding Cloud (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Cloud (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Cloud (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Cloud (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Cloud",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-103",
+    "question": "Cloud (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding Cloud (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Cloud (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Cloud (case 3): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Cloud (case 3): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Cloud",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-104",
+    "question": "Cloud (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding Cloud (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Cloud (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Cloud (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Cloud (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Cloud",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-105",
+    "question": "Cloud (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding Cloud (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Cloud (case 5): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Cloud (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Cloud (case 5): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Cloud",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-106",
+    "question": "Cloud (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding Cloud (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Cloud (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Cloud (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Cloud (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Cloud",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-107",
+    "question": "Cloud (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding Cloud (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Cloud (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Cloud (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Cloud (case 7): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Cloud",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-108",
+    "question": "Cloud (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding Cloud (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Cloud (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Cloud (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Cloud (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Cloud",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-109",
+    "question": "Cloud (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding Cloud (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Cloud (case 9): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Cloud (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Cloud (case 9): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Cloud",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-110",
+    "question": "Cloud (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding Cloud (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Cloud (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Cloud (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Cloud (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Cloud",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-111",
+    "question": "AWS (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding AWS (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding AWS (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding AWS (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding AWS (case 1): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "AWS",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-112",
+    "question": "AWS (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding AWS (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding AWS (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding AWS (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding AWS (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "AWS",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-113",
+    "question": "AWS (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding AWS (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding AWS (case 3): following established guidance from official docs and community standards fits this situation.",
+      "Regarding AWS (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding AWS (case 3): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "AWS",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-114",
+    "question": "AWS (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding AWS (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding AWS (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding AWS (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding AWS (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "AWS",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-115",
+    "question": "AWS (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding AWS (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding AWS (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding AWS (case 5): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding AWS (case 5): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "AWS",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-116",
+    "question": "AWS (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding AWS (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding AWS (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding AWS (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding AWS (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "AWS",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-117",
+    "question": "AWS (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding AWS (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding AWS (case 7): following established guidance from official docs and community standards fits this situation.",
+      "Regarding AWS (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding AWS (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "AWS",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-118",
+    "question": "AWS (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding AWS (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding AWS (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding AWS (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding AWS (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "AWS",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-119",
+    "question": "AWS (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding AWS (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding AWS (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding AWS (case 9): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding AWS (case 9): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "AWS",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-120",
+    "question": "AWS (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding AWS (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding AWS (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding AWS (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding AWS (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "AWS",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-121",
+    "question": "Security (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding Security (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Security (case 1): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Security (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Security (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Security",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-122",
+    "question": "Security (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding Security (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Security (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Security (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Security (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Security",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-123",
+    "question": "Security (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding Security (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Security (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Security (case 3): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Security (case 3): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Security",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-124",
+    "question": "Security (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding Security (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Security (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Security (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Security (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Security",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-125",
+    "question": "Security (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding Security (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Security (case 5): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Security (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Security (case 5): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Security",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-126",
+    "question": "Security (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding Security (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Security (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Security (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Security (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Security",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-127",
+    "question": "Security (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding Security (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Security (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Security (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Security (case 7): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Security",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-128",
+    "question": "Security (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding Security (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Security (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Security (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Security (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Security",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-129",
+    "question": "Security (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding Security (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Security (case 9): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Security (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Security (case 9): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Security",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-130",
+    "question": "Security (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding Security (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Security (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Security (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Security (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Security",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-131",
+    "question": "Git (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding Git (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Git (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Git (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Git (case 1): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Git",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-132",
+    "question": "Git (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding Git (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Git (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Git (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Git (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Git",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-133",
+    "question": "Git (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding Git (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Git (case 3): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Git (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Git (case 3): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Git",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-134",
+    "question": "Git (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding Git (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Git (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Git (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Git (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Git",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-135",
+    "question": "Git (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding Git (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Git (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Git (case 5): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Git (case 5): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Git",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-136",
+    "question": "Git (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding Git (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Git (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Git (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Git (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Git",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-137",
+    "question": "Git (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding Git (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Git (case 7): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Git (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Git (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Git",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-138",
+    "question": "Git (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding Git (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Git (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Git (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Git (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Git",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-139",
+    "question": "Git (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding Git (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Git (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Git (case 9): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Git (case 9): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Git",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-140",
+    "question": "Git (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding Git (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Git (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Git (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Git (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Git",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-141",
+    "question": "REST APIs (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding REST APIs (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding REST APIs (case 1): following established guidance from official docs and community standards fits this situation.",
+      "Regarding REST APIs (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding REST APIs (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "REST APIs",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-142",
+    "question": "REST APIs (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding REST APIs (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding REST APIs (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding REST APIs (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding REST APIs (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "REST APIs",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-143",
+    "question": "REST APIs (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding REST APIs (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding REST APIs (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding REST APIs (case 3): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding REST APIs (case 3): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "REST APIs",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-144",
+    "question": "REST APIs (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding REST APIs (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding REST APIs (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding REST APIs (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding REST APIs (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "REST APIs",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-145",
+    "question": "REST APIs (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding REST APIs (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding REST APIs (case 5): following established guidance from official docs and community standards fits this situation.",
+      "Regarding REST APIs (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding REST APIs (case 5): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "REST APIs",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-146",
+    "question": "REST APIs (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding REST APIs (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding REST APIs (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding REST APIs (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding REST APIs (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "REST APIs",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-147",
+    "question": "REST APIs (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding REST APIs (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding REST APIs (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding REST APIs (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding REST APIs (case 7): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "REST APIs",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-148",
+    "question": "REST APIs (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding REST APIs (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding REST APIs (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding REST APIs (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding REST APIs (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "REST APIs",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-149",
+    "question": "REST APIs (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding REST APIs (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding REST APIs (case 9): following established guidance from official docs and community standards fits this situation.",
+      "Regarding REST APIs (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding REST APIs (case 9): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "REST APIs",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-150",
+    "question": "REST APIs (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding REST APIs (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding REST APIs (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding REST APIs (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding REST APIs (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "REST APIs",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-151",
+    "question": "React (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding React (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding React (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding React (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding React (case 1): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "React",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-152",
+    "question": "React (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding React (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding React (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding React (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding React (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "React",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-153",
+    "question": "React (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding React (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding React (case 3): following established guidance from official docs and community standards fits this situation.",
+      "Regarding React (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding React (case 3): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "React",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-154",
+    "question": "React (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding React (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding React (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding React (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding React (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "React",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-155",
+    "question": "React (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding React (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding React (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding React (case 5): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding React (case 5): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "React",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-156",
+    "question": "React (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding React (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding React (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding React (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding React (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "React",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-157",
+    "question": "React (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding React (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding React (case 7): following established guidance from official docs and community standards fits this situation.",
+      "Regarding React (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding React (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "React",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-158",
+    "question": "React (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding React (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding React (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding React (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding React (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "React",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-159",
+    "question": "React (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding React (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding React (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding React (case 9): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding React (case 9): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "React",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-160",
+    "question": "React (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding React (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding React (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding React (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding React (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "React",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-161",
+    "question": "Node.js (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding Node.js (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Node.js (case 1): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Node.js (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Node.js (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Node.js",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-162",
+    "question": "Node.js (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding Node.js (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Node.js (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Node.js (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Node.js (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Node.js",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-163",
+    "question": "Node.js (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding Node.js (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Node.js (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Node.js (case 3): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Node.js (case 3): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Node.js",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-164",
+    "question": "Node.js (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding Node.js (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Node.js (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Node.js (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Node.js (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Node.js",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-165",
+    "question": "Node.js (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding Node.js (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Node.js (case 5): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Node.js (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Node.js (case 5): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Node.js",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-166",
+    "question": "Node.js (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding Node.js (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Node.js (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Node.js (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Node.js (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Node.js",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-167",
+    "question": "Node.js (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding Node.js (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Node.js (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Node.js (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Node.js (case 7): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Node.js",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-168",
+    "question": "Node.js (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding Node.js (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Node.js (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Node.js (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Node.js (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Node.js",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-169",
+    "question": "Node.js (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding Node.js (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Node.js (case 9): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Node.js (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Node.js (case 9): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Node.js",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-170",
+    "question": "Node.js (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding Node.js (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Node.js (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Node.js (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Node.js (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Node.js",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-171",
+    "question": "Python (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding Python (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Python (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Python (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Python (case 1): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Python",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-172",
+    "question": "Python (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding Python (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Python (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Python (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Python (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Python",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-173",
+    "question": "Python (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding Python (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Python (case 3): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Python (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Python (case 3): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Python",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-174",
+    "question": "Python (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding Python (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Python (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Python (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Python (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Python",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-175",
+    "question": "Python (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding Python (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Python (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Python (case 5): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Python (case 5): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Python",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-176",
+    "question": "Python (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding Python (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Python (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Python (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Python (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Python",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-177",
+    "question": "Python (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding Python (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Python (case 7): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Python (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Python (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Python",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-178",
+    "question": "Python (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding Python (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Python (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Python (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Python (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Python",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-179",
+    "question": "Python (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding Python (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Python (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Python (case 9): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Python (case 9): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Python",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-180",
+    "question": "Python (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding Python (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Python (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Python (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Python (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Python",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-181",
+    "question": "Linux (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding Linux (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Linux (case 1): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Linux (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Linux (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Linux",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-182",
+    "question": "Linux (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding Linux (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Linux (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Linux (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Linux (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Linux",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-183",
+    "question": "Linux (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding Linux (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Linux (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Linux (case 3): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Linux (case 3): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Linux",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-184",
+    "question": "Linux (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding Linux (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Linux (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Linux (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Linux (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Linux",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-185",
+    "question": "Linux (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding Linux (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Linux (case 5): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Linux (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Linux (case 5): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Linux",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-186",
+    "question": "Linux (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding Linux (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Linux (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Linux (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Linux (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Linux",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-187",
+    "question": "Linux (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding Linux (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Linux (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Linux (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Linux (case 7): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Linux",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-188",
+    "question": "Linux (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding Linux (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Linux (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Linux (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Linux (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Linux",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-189",
+    "question": "Linux (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding Linux (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Linux (case 9): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Linux (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Linux (case 9): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Linux",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-190",
+    "question": "Linux (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding Linux (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Linux (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Linux (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Linux (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Linux",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-191",
+    "question": "Software Engineering (easy) — Which option best matches sound professional practice for topic 1?",
+    "options": [
+      "Regarding Software Engineering (case 1): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Software Engineering (case 1): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Software Engineering (case 1): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Software Engineering (case 1): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Software Engineering",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-192",
+    "question": "Software Engineering (easy) — Which option best matches sound professional practice for topic 2?",
+    "options": [
+      "Regarding Software Engineering (case 2): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Software Engineering (case 2): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Software Engineering (case 2): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Software Engineering (case 2): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Software Engineering",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-193",
+    "question": "Software Engineering (easy) — Which option best matches sound professional practice for topic 3?",
+    "options": [
+      "Regarding Software Engineering (case 3): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Software Engineering (case 3): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Software Engineering (case 3): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Software Engineering (case 3): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Software Engineering",
+    "difficulty": "easy"
+  },
+  {
+    "id": "p-194",
+    "question": "Software Engineering (medium) — Which option best matches sound professional practice for topic 4?",
+    "options": [
+      "Regarding Software Engineering (case 4): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Software Engineering (case 4): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Software Engineering (case 4): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Software Engineering (case 4): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Software Engineering",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-195",
+    "question": "Software Engineering (medium) — Which option best matches sound professional practice for topic 5?",
+    "options": [
+      "Regarding Software Engineering (case 5): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Software Engineering (case 5): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Software Engineering (case 5): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Software Engineering (case 5): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Software Engineering",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-196",
+    "question": "Software Engineering (medium) — Which option best matches sound professional practice for topic 6?",
+    "options": [
+      "Regarding Software Engineering (case 6): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Software Engineering (case 6): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Software Engineering (case 6): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Software Engineering (case 6): mixing unrelated tools without validation or review fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Software Engineering",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-197",
+    "question": "Software Engineering (medium) — Which option best matches sound professional practice for topic 7?",
+    "options": [
+      "Regarding Software Engineering (case 7): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Software Engineering (case 7): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Software Engineering (case 7): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Software Engineering (case 7): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Software Engineering",
+    "difficulty": "medium"
+  },
+  {
+    "id": "p-198",
+    "question": "Software Engineering (hard) — Which option best matches sound professional practice for topic 8?",
+    "options": [
+      "Regarding Software Engineering (case 8): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Software Engineering (case 8): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Software Engineering (case 8): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Software Engineering (case 8): ignoring common references and inventing one-off rules fits this situation."
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Software Engineering",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-199",
+    "question": "Software Engineering (hard) — Which option best matches sound professional practice for topic 9?",
+    "options": [
+      "Regarding Software Engineering (case 9): defaulting to legacy assumptions that conflict with current norms fits this situation.",
+      "Regarding Software Engineering (case 9): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Software Engineering (case 9): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Software Engineering (case 9): following established guidance from official docs and community standards fits this situation."
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Software Engineering",
+    "difficulty": "hard"
+  },
+  {
+    "id": "p-200",
+    "question": "Software Engineering (hard) — Which option best matches sound professional practice for topic 10?",
+    "options": [
+      "Regarding Software Engineering (case 10): following established guidance from official docs and community standards fits this situation.",
+      "Regarding Software Engineering (case 10): ignoring common references and inventing one-off rules fits this situation.",
+      "Regarding Software Engineering (case 10): mixing unrelated tools without validation or review fits this situation.",
+      "Regarding Software Engineering (case 10): defaulting to legacy assumptions that conflict with current norms fits this situation."
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Software Engineering",
+    "difficulty": "hard"
+  }
+]

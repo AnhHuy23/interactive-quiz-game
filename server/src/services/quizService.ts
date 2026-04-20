@@ -31,6 +31,18 @@ function assertId(id: unknown): asserts id is string {
   }
 }
 
+export function listCategories(): string[] {
+  const s = new Set(QUESTIONS.map((q) => q.category));
+  return [...s].sort((a, b) => a.localeCompare(b));
+}
+
+function assertCategoryName(cat: string): void {
+  const valid = listCategories();
+  if (!valid.includes(cat)) {
+    throw new AppError(400, `Unknown category: ${cat}`, 'VALIDATION_ERROR');
+  }
+}
+
 function shuffle<T>(items: T[]): T[] {
   const copy = [...items];
   for (let i = copy.length - 1; i > 0; i -= 1) {
@@ -40,7 +52,28 @@ function shuffle<T>(items: T[]): T[] {
   return copy;
 }
 
-/** Full questions including correctAnswerIndex — trusted dev/demo SPA only */
+/**
+ * Filter by optional difficulty and/or category (omit category or use "all" for any category).
+ */
+export function filterQuestions(difficulty?: unknown, category?: unknown): QuizQuestion[] {
+  let pool: QuizQuestion[] = [...QUESTIONS];
+
+  const hasDiff = difficulty !== undefined && difficulty !== null && String(difficulty).trim() !== '';
+  if (hasDiff) {
+    assertDifficulty(typeof difficulty === 'string' ? difficulty : String(difficulty));
+    pool = pool.filter((q) => q.difficulty === difficulty);
+  }
+
+  const catRaw = category !== undefined && category !== null ? String(category).trim() : '';
+  if (catRaw !== '' && catRaw.toLowerCase() !== 'all') {
+    assertCategoryName(catRaw);
+    pool = pool.filter((q) => q.category === catRaw);
+  }
+
+  return pool;
+}
+
+/** Full question bank including correctAnswerIndex — trusted dev/demo SPA only */
 export function getAllQuestions(): QuizQuestion[] {
   try {
     return [...QUESTIONS];
@@ -56,17 +89,12 @@ export function getQuestionsByDifficulty(difficulty: unknown): QuizQuestion[] {
 }
 
 /**
- * @param limit — number of questions (1..100)
- * @param difficulty — optional filter
+ * Random sample after filters (max 100 questions per request).
+ * @param category — omit or "all" for every category
  */
-export function getRandomQuestions(limit: unknown, difficulty?: unknown): QuizQuestion[] {
+export function getRandomQuestions(limit: unknown, difficulty?: unknown, category?: unknown): QuizQuestion[] {
   const n = assertPositiveIntLimit(limit);
-  let pool: QuizQuestion[] = [...QUESTIONS];
-
-  if (difficulty !== undefined && difficulty !== null && String(difficulty).length > 0) {
-    assertDifficulty(typeof difficulty === 'string' ? difficulty : String(difficulty));
-    pool = pool.filter((q) => q.difficulty === difficulty);
-  }
+  const pool = filterQuestions(difficulty, category);
 
   if (pool.length === 0) {
     return [];

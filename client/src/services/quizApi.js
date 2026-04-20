@@ -18,30 +18,49 @@ function unwrap(response) {
 }
 
 /**
- * All questions, optionally filtered by difficulty.
- * @param {string} [difficulty] - 'easy' | 'medium' | 'hard'
+ * Quiz categories (for filters).
  */
-export async function fetchQuestions(difficulty) {
+export async function fetchCategories() {
+  const data = unwrap(await quizApi.get('/api/questions/categories'))
+  return {
+    categories: data.categories || [],
+    totalQuestions: data.totalQuestions ?? 0,
+  }
+}
+
+/**
+ * All questions, optional filters.
+ * @param {string} [difficulty]
+ * @param {string} [category] — omit or 'all'
+ */
+export async function fetchQuestions(difficulty, category) {
   const params = {}
   if (difficulty != null && String(difficulty).trim() !== '') {
     params.difficulty = difficulty
+  }
+  if (category != null && String(category).trim() !== '' && String(category).toLowerCase() !== 'all') {
+    params.category = category
   }
   const data = unwrap(await quizApi.get('/api/questions', { params }))
   return data.questions
 }
 
 /**
- * Random subset of questions.
+ * Random subset (max 100).
  * @param {number} limit
  * @param {string} [difficulty]
+ * @param {string} [category] — omit or 'all'
  */
-export async function fetchRandomQuestions(limit, difficulty) {
+export async function fetchRandomQuestions(limit, difficulty, category) {
   if (limit == null || Number.isNaN(Number(limit))) {
     throw new Error('limit must be a number')
   }
   const params = { limit: Number(limit) }
   if (difficulty != null && String(difficulty).trim() !== '') {
     params.difficulty = difficulty
+  }
+  if (category != null && String(category).trim() !== '' && String(category).toLowerCase() !== 'all') {
+    params.category = category
   }
   const data = unwrap(await quizApi.get('/api/questions/random', { params }))
   return data.questions
