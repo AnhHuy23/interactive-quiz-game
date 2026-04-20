@@ -3,6 +3,7 @@ import StartScreen from './components/StartScreen.jsx'
 import QuizScreen from './components/QuizScreen.jsx'
 import ResultScreen from './components/ResultScreen.jsx'
 import SettingsPanel from './components/SettingsPanel.jsx'
+import ThemeToggleButton from './components/ThemeToggleButton.jsx'
 import { fetchRandomQuestions } from './services/quizApi.js'
 import { useCountdownTimer } from './hooks/useCountdownTimer.js'
 import { useTranslation } from './i18n/LanguageProvider.jsx'
@@ -148,7 +149,10 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-indigo-50/30 dark:from-slate-950 dark:to-indigo-950/40">
-      <SettingsPanel />
+      <div className="fixed right-4 top-4 z-[100] flex items-center gap-2">
+        <ThemeToggleButton />
+        <SettingsPanel />
+      </div>
 
       {loading && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-white/70 backdrop-blur-sm dark:bg-slate-950/75">

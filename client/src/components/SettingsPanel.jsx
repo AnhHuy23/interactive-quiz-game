@@ -1,10 +1,8 @@
 import { useState } from 'react'
 import { useTranslation } from '../i18n/LanguageProvider.jsx'
-import { useTheme } from '../theme/ThemeProvider.jsx'
 
 export default function SettingsPanel() {
   const { t, locale, setLocale } = useTranslation()
-  const { theme, setTheme } = useTheme()
   const [open, setOpen] = useState(false)
 
   return (
@@ -12,7 +10,7 @@ export default function SettingsPanel() {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="fixed right-4 top-4 z-[100] rounded-full border border-slate-200 bg-white/95 px-4 py-2 text-sm font-medium text-slate-700 shadow-md backdrop-blur hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800/95 dark:text-slate-100 dark:hover:bg-slate-700/90"
+        className="rounded-full border border-slate-200 bg-white/95 px-4 py-2 text-sm font-medium text-slate-700 shadow-md backdrop-blur hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800/95 dark:text-slate-100 dark:hover:bg-slate-700/90"
       >
         {t('settings.button')}
       </button>
@@ -35,32 +33,6 @@ export default function SettingsPanel() {
             </h2>
 
             <p className="mb-4 text-sm text-slate-600 dark:text-slate-400">{t('settings.hint')}</p>
-
-            <fieldset className="mb-6">
-              <legend className="mb-2 text-sm font-medium text-slate-700 dark:text-slate-300">
-                {t('settings.theme')}
-              </legend>
-              <div className="mb-6 flex flex-col gap-2">
-                <label className="flex cursor-pointer items-center gap-3 rounded-lg border border-slate-200 px-3 py-2 has-[:checked]:border-indigo-500 has-[:checked]:bg-indigo-50 dark:border-slate-600 dark:has-[:checked]:border-indigo-400 dark:has-[:checked]:bg-indigo-950/50">
-                  <input
-                    type="radio"
-                    name="theme"
-                    checked={theme === 'light'}
-                    onChange={() => setTheme('light')}
-                  />
-                  <span className="text-slate-800 dark:text-slate-200">{t('settings.themeLight')}</span>
-                </label>
-                <label className="flex cursor-pointer items-center gap-3 rounded-lg border border-slate-200 px-3 py-2 has-[:checked]:border-indigo-500 has-[:checked]:bg-indigo-50 dark:border-slate-600 dark:has-[:checked]:border-indigo-400 dark:has-[:checked]:bg-indigo-950/50">
-                  <input
-                    type="radio"
-                    name="theme"
-                    checked={theme === 'dark'}
-                    onChange={() => setTheme('dark')}
-                  />
-                  <span className="text-slate-800 dark:text-slate-200">{t('settings.themeDark')}</span>
-                </label>
-              </div>
-            </fieldset>
 
             <fieldset className="mb-6">
               <legend className="mb-2 text-sm font-medium text-slate-700 dark:text-slate-300">
