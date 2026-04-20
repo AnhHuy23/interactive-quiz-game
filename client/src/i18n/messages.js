@@ -6,6 +6,9 @@ export const messages = {
     'settings.language': 'Language',
     'settings.close': 'Close',
     'settings.hint': 'Interface language only. Questions stay in English from the server.',
+    'settings.theme': 'Appearance',
+    'settings.themeLight': 'Light',
+    'settings.themeDark': 'Dark',
 
     'start.title': 'Interactive Quiz',
     'start.subtitle':
@@ -45,6 +48,9 @@ export const messages = {
     'settings.close': 'Đóng',
     'settings.hint':
       'Chỉ đổi giao diện. Nội dung câu hỏi vẫn theo API (tiếng Anh).',
+    'settings.theme': 'Giao diện',
+    'settings.themeLight': 'Sáng',
+    'settings.themeDark': 'Tối',
 
     'start.title': 'Quiz tương tác',
     'start.subtitle':

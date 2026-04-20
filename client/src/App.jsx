@@ -147,12 +147,12 @@ export default function App() {
   const percentCorrect = total > 0 ? Math.round((correctCount / total) * 100) : 0
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-indigo-50/30">
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-indigo-50/30 dark:from-slate-950 dark:to-indigo-950/40">
       <SettingsPanel />
 
       {loading && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-white/70 backdrop-blur-sm">
-          <p className="text-lg font-medium text-slate-700">{t('app.loading')}</p>
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-white/70 backdrop-blur-sm dark:bg-slate-950/75">
+          <p className="text-lg font-medium text-slate-700 dark:text-slate-200">{t('app.loading')}</p>
         </div>
       )}
 
@@ -160,7 +160,7 @@ export default function App() {
         <div className="mx-auto max-w-lg px-4 pt-16">
           <div
             role="alert"
-            className="rounded-xl border border-rose-200 bg-rose-50 px-4 py-3 text-rose-800"
+            className="rounded-xl border border-rose-200 bg-rose-50 px-4 py-3 text-rose-800 dark:border-rose-800/80 dark:bg-rose-950/50 dark:text-rose-200"
           >
             {error}
           </div>
@@ -171,22 +171,24 @@ export default function App() {
 
       {phase === 'quiz' && current && (
         <>
-          <header className="sticky top-0 z-40 border-b border-slate-200/80 bg-white/90 backdrop-blur-md">
+          <header className="sticky top-0 z-40 border-b border-slate-200/80 bg-white/90 backdrop-blur-md dark:border-slate-700/80 dark:bg-slate-900/90">
             <div className="mx-auto flex max-w-2xl items-center justify-between px-4 py-3">
-              <span className="text-sm font-medium text-slate-600">
+              <span className="text-sm font-medium text-slate-600 dark:text-slate-400">
                 {t('app.progress', { n: currentIndex + 1, total })}
               </span>
               <div
                 className={`rounded-lg px-3 py-1.5 font-mono text-lg font-bold tabular-nums ${
-                  timeLeft <= 5 ? 'bg-amber-100 text-amber-900' : 'bg-slate-100 text-slate-800'
+                  timeLeft <= 5
+                    ? 'bg-amber-100 text-amber-900 dark:bg-amber-950/80 dark:text-amber-200'
+                    : 'bg-slate-100 text-slate-800 dark:bg-slate-800 dark:text-slate-100'
                 }`}
               >
                 {String(timeLeft).padStart(2, '0')}s
               </div>
             </div>
-            <div className="h-1 w-full bg-slate-100">
+            <div className="h-1 w-full bg-slate-100 dark:bg-slate-800">
               <div
-                className="h-full bg-indigo-500 transition-all"
+                className="h-full bg-indigo-500 transition-all dark:bg-indigo-400"
                 style={{
                   width: `${((SECONDS_PER_QUESTION - timeLeft) / SECONDS_PER_QUESTION) * 100}%`,
                 }}
